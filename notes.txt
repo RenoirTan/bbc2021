@@ -14,3 +14,14 @@ data biasness
   - class 1: 10000 samples
   - class 2: 5 samples
 - confidence bias towards class 1
+
+include proficiency in programming languages/frameworks
+
+facial detection
+- convert to black and white
+- for every pixel
+  - draw an arrow pointing in the darker direction in a gradient
+    - consistent despite lighting
+- center the face (if at an angle)
+  - by using a neural network to find face landmarks
+- make facial measurements using another neural network
