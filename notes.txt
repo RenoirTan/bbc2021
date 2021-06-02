@@ -1,0 +1,16 @@
+convoluted neural network
+ensure learning rate is just right
+- too low: take too much time
+- too high: undefined behaviours
+confusion matrix
+overfitting
+- overreliance on obvious features (especially similar ones)
+- if the input data is too similar
+- the model will only learn to match a certain orientation instead
+  of the overall shape
+data biasness
+- unequal amount of data
+- 2 classes:
+  - class 1: 10000 samples
+  - class 2: 5 samples
+- confidence bias towards class 1
