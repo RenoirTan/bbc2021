@@ -25,3 +25,31 @@ facial detection
 - center the face (if at an angle)
   - by using a neural network to find face landmarks
 - make facial measurements using another neural network
+
+activation functions
+- modern non-linear activation functions typically use max(0, x)
+
+gradient descent
+- find the lowest point possible
+- compute gradient
+
+convolutional neural network
+- split into rgb channels
+- pixel values fed into convolutional layer
+- convolute image (3x3 -> 1x1)
+- pass images through filter
+  - to increase contrast (max pooling)
+
+max pooling
+- out of the 2x2 pixels select most intense
+- increase contrast
+
+ml
+- topology
+  - "shape" of neural network
+- innovation number
+- crossover
+- speciation
+  - bots with similar neural network grouped together
+  - remove topologies that don't work well
+  - keep bots with some potential by preventing better bots from smothering them

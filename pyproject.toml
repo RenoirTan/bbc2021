@@ -9,6 +9,7 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = "^3.6"
 opencv-python = "^4.5"
+PyAutoGUI = "^0.9"
 PySimpleGUI = "^4.43"
 pyttsx3 = "^2.90"
 imutils = "^0.5"
